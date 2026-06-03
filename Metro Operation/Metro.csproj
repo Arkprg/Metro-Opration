@@ -1,0 +1,1692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{202261DC-F326-4808-A13D-A3E6E9071838}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Metro_Operation.Program</StartupObject>
+    <RootNamespace>Metro_Operation</RootNamespace>
+    <AssemblyName>Metro Operation</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>C:\Users\Alireza\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>Metro Operation</ProductName>
+    <PublisherName>K2 Team</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>3.8.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NOWARN>
+    </NOWARN>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Metro Operation.xml</DocumentationFile>
+    <NOWARN>660,661</NOWARN>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>Off</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Metro Operation.xml</DocumentationFile>
+    <NOWARN>660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Metro Operation.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NOWARN>660,661</NOWARN>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BFB479D0AC97CB45C69610558D9F0CCAD8DFEB6C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Metro_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Icon5.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.95.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Metro Operation\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="BPersianCalender, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BPersianCalender.dll</HintPath>
+    </Reference>
+    <Reference Include="HTMLEditor">
+      <HintPath>bin\Debug1\HTMLEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Base">
+      <HintPath>..\..\..\..\..\..\..\..\..\Metro Operation\Stimulsoft.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls">
+      <HintPath>..\..\..\..\..\..\..\..\..\Metro Operation\Stimulsoft.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.Win">
+      <HintPath>..\..\..\..\..\..\..\..\..\Metro Operation\Stimulsoft.Controls.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Metro Operation\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Metro Operation\Stimulsoft.Report.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutProgramForm.Designer.cs">
+      <DependentUpon>AboutProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppState.cs" />
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoradNatifRegForm.Designer.cs">
+      <DependentUpon>BoradNatifRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoradNatifRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarFormAD.Designer.cs">
+      <DependentUpon>CalendarFormAD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarFormAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConvertClass.cs" />
+    <Compile Include="DailyLeaveGraphForm.Designer.cs">
+      <DependentUpon>DailyLeaveGraphForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLeaveGraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyProcessADForm.Designer.cs">
+      <DependentUpon>DailyProcessADForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyProcessADForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyProcessParametrEditForm.Designer.cs">
+      <DependentUpon>DailyProcessParametrEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyProcessParametrEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyTripProcessForm.Designer.cs">
+      <DependentUpon>DailyTripProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyTripProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseHelper.cs" />
+    <Compile Include="ElectionPartyForm.Designer.cs">
+      <DependentUpon>ElectionPartyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElectionPartyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElectionRegisterForm.Designer.cs">
+      <DependentUpon>ElectionRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElectionRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElectionResultForm.Designer.cs">
+      <DependentUpon>ElectionResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElectionResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamRegisterForm.Designer.cs">
+      <DependentUpon>ExamRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamRportForm.Designer.cs">
+      <DependentUpon>ExamRportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamRportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamShowForm.Designer.cs">
+      <DependentUpon>ExamShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlipDigit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlipDigit.Designer.cs">
+      <DependentUpon>FlipDigit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FontManager.cs" />
+    <Compile Include="GlassSidebar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LastPersonChangeForm.Designer.cs">
+      <DependentUpon>LastPersonChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LastPersonChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthlyOperAdvForm.Designer.cs">
+      <DependentUpon>MonthlyOperAdvForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyOperAdvForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="MyDailyOperationForm.Designer.cs">
+      <DependentUpon>MyDailyOperationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyDailyOperationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavganHistorForm.Designer.cs">
+      <DependentUpon>NavganHistorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavganHistorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeGraphForm.Designer.cs">
+      <DependentUpon>OvertimeGraphForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeGraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkingReportForm.Designer.cs">
+      <DependentUpon>ParkingReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkingReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalAlbumForm.Designer.cs">
+      <DependentUpon>PersonalAlbumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalAlbumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportExcelForm.Designer.cs">
+      <DependentUpon>ImportExcelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportExcelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRequestForm.Designer.cs">
+      <DependentUpon>ServiceRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainExchangeForm.Designer.cs">
+      <DependentUpon>TrainExchangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainExchangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripDailyReportForm.Designer.cs">
+      <DependentUpon>TripDailyReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripDailyReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripInShiftReportForm.Designer.cs">
+      <DependentUpon>TripInShiftReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripInShiftReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalDailyProcessForm.Designer.cs">
+      <DependentUpon>TerminalDailyProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalDailyProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalManoverRegForm.Designer.cs">
+      <DependentUpon>TerminalManoverRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalManoverRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalTableEditForm.Designer.cs">
+      <DependentUpon>TerminalTableEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalTableEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalTableTripRegForm.Designer.cs">
+      <DependentUpon>TerminalTableTripRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalTableTripRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalPatternRegForm.Designer.cs">
+      <DependentUpon>TerminalPatternRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalPatternRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalTableRegForm.Designer.cs">
+      <DependentUpon>TerminalTableRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalTableRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToastAnimatorForm.cs" />
+    <Compile Include="HistoryPostForm.Designer.cs">
+      <DependentUpon>HistoryPostForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryPostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KartableSelectForm.Designer.cs">
+      <DependentUpon>KartableSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KartableSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnnounceRegisterForm.Designer.cs">
+      <DependentUpon>AnnounceRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnnounceRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnnounceReportForm.Designer.cs">
+      <DependentUpon>AnnounceReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnnounceReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyOperatorForm.Designer.cs">
+      <DependentUpon>DailyOperatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyOperatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavganEditForm.Designer.cs">
+      <DependentUpon>NavganEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavganEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavganRegForm.Designer.cs">
+      <DependentUpon>NavganRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavganRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavganReportForm.Designer.cs">
+      <DependentUpon>NavganReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavganReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeRequestRegForm.Designer.cs">
+      <DependentUpon>OvertimeRequestRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeRequestRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaswordRecoveryForm.Designer.cs">
+      <DependentUpon>PaswordRecoveryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaswordRecoveryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalDetailForm.Designer.cs">
+      <DependentUpon>PersonalDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalAllTripReportForm.Designer.cs">
+      <DependentUpon>TerminalAllTripReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalAllTripReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalParametrForm.Designer.cs">
+      <DependentUpon>TerminalParametrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalParametrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalTripEditForm.Designer.cs">
+      <DependentUpon>TerminalTripEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalTripEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalTripRegForm.Designer.cs">
+      <DependentUpon>TerminalTripRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalTripRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminalTripReportForm.Designer.cs">
+      <DependentUpon>TerminalTripReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalTripReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToastForm.Designer.cs">
+      <DependentUpon>ToastForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToastForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripAnalyzeForm.Designer.cs">
+      <DependentUpon>TripAnalyzeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripAnalyzeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageShiftStatisticsForm.Designer.cs">
+      <DependentUpon>ManageShiftStatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageShiftStatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailShwoForm.Designer.cs">
+      <DependentUpon>DetailShwoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailShwoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KehsikAutoRegForm.Designer.cs">
+      <DependentUpon>KehsikAutoRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KehsikAutoRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeshikReplaceForm.Designer.cs">
+      <DependentUpon>KeshikReplaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeshikReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeshikRequReportForm.Designer.cs">
+      <DependentUpon>KeshikRequReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeshikRequReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeshikRequRegisterForm.Designer.cs">
+      <DependentUpon>KeshikRequRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeshikRequRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultsRegisterForm.Designer.cs">
+      <DependentUpon>FaultsRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultsRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeshikEditForm.Designer.cs">
+      <DependentUpon>KeshikEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeshikEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeshikReportForm.Designer.cs">
+      <DependentUpon>KeshikReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeshikReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageFunctionReportForm.Designer.cs">
+      <DependentUpon>ManageFunctionReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageFunctionReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageOverTimeDetailForm.Designer.cs">
+      <DependentUpon>ManageOverTimeDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageOverTimeDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeGroupForm.Designer.cs">
+      <DependentUpon>OvertimeGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePersonStatReportForm.Designer.cs">
+      <DependentUpon>ManagePersonStatReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePersonStatReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimePickerForm.Designer.cs">
+      <DependentUpon>OvertimePickerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimePickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyProcessParametrRegForm.Designer.cs">
+      <DependentUpon>DailyProcessParametrRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyProcessParametrRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PermisionEditForm.Designer.cs">
+      <DependentUpon>PermisionEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermisionEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PermisionReportForm.Designer.cs">
+      <DependentUpon>PermisionReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermisionReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalDetailReportForm.Designer.cs">
+      <DependentUpon>PersonalDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxFa.cs" />
+    <Compile Include="NumToWord.cs" />
+    <Compile Include="PasswordChangeForm.Designer.cs">
+      <DependentUpon>PasswordChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalListForm.Designer.cs">
+      <DependentUpon>PersonalListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalSelectForm.Designer.cs">
+      <DependentUpon>PersonalSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionRegisterForm.Designer.cs">
+      <DependentUpon>FunctionRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionEditForm.Designer.cs">
+      <DependentUpon>FunctionEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionReportForm.Designer.cs">
+      <DependentUpon>FunctionReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageReservReportForm.Designer.cs">
+      <DependentUpon>ManageReservReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageReservReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneBookForm.Designer.cs">
+      <DependentUpon>PhoneBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReserveShiftTurnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetrainingClassRegForm.Designer.cs">
+      <DependentUpon>RetrainingClassRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RetrainingClassRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetrainingClassReportForm.Designer.cs">
+      <DependentUpon>RetrainingClassReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RetrainingClassReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnnounceShowForm.Designer.cs">
+      <DependentUpon>AnnounceShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnnounceShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RezerveShiftTurnForm.Designer.cs">
+      <DependentUpon>ReserveShiftTurnForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripSpecialRegisterForm.Designer.cs">
+      <DependentUpon>TripSpecialRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripSpecialRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taghvim.cs" />
+    <Compile Include="TechnicalFunctionEditForm.Designer.cs">
+      <DependentUpon>TechnicalFunctionEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechnicalFunctionEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageKeshikReport.Designer.cs">
+      <DependentUpon>ManageKeshikReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageKeshikReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalCollector.cs" />
+    <Compile Include="TripCompileForm.Designer.cs">
+      <DependentUpon>TripCompileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripCompileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripSpecialReportForm.Designer.cs">
+      <DependentUpon>TripSpecialReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripSpecialReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripImportExecutForm.Designer.cs">
+      <DependentUpon>TripImportExecutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripImportExecutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripHandlingForm.Designer.cs">
+      <DependentUpon>TripHandlingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripHandlingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripImportFinalForm.Designer.cs">
+      <DependentUpon>TripImportFinalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripImportFinalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripImportPrimeForm.Designer.cs">
+      <DependentUpon>TripImportPrimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripImportPrimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripLovhehReportForm.Designer.cs">
+      <DependentUpon>TripLovhehReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripLovhehReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripPersonReportForm.Designer.cs">
+      <DependentUpon>TripPersonReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripPersonReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripReportForm.Designer.cs">
+      <DependentUpon>TripReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripTotalReportForm.Designer.cs">
+      <DependentUpon>TripTotalReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripTotalReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateRegisterForm.Designer.cs">
+      <DependentUpon>UpdateRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserEditForm.Designer.cs">
+      <DependentUpon>UserEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersListForm.Designer.cs">
+      <DependentUpon>UsersListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechnicalFunctionRegForm.Designer.cs">
+      <DependentUpon>TechnicalFunctionRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechnicalFunctionRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechnicalFunctionReportForm.Designer.cs">
+      <DependentUpon>TechnicalFunctionReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechnicalFunctionReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLeaveRegisterForm.Designer.cs">
+      <DependentUpon>TimeLeaveRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLeaveRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLeaveEditForm.Designer.cs">
+      <DependentUpon>TimeLeaveEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLeaveEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShiftOvertimeForm.Designer.cs">
+      <DependentUpon>ShiftOvertimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShiftOvertimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageOvertimeReviewForm.Designer.cs">
+      <DependentUpon>ManageOvertimeReviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageOvertimeReviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarForm.Designer.cs">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve9Form.Designer.cs">
+      <DependentUpon>Reserve9Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve9Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyLeaveRegisterOpratorForm.Designer.cs">
+      <DependentUpon>DailyLeaveRegisterOpratorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLeaveRegisterOpratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyLeaveRegisterAllForm.Designer.cs">
+      <DependentUpon>DailyLeaveRegisterAllForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLeaveRegisterAllForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReserveTripForm.Designer.cs">
+      <DependentUpon>ReserveTripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReserveTripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeRegisterForm.Designer.cs">
+      <DependentUpon>OvertimeRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLeaveReportForm.Designer.cs">
+      <DependentUpon>TimeLeaveReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLeaveReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyLeaveReportForm.Designer.cs">
+      <DependentUpon>DailyLeaveReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLeaveReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeRequestReportForm.Designer.cs">
+      <DependentUpon>OvertimeRequestReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeRequestReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReserveReportForm.Designer.cs">
+      <DependentUpon>ReserveReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReserveReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyLeaveEditForm.Designer.cs">
+      <DependentUpon>DailyLeaveEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLeaveEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeEditForm.Designer.cs">
+      <DependentUpon>OvertimeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeRequestEditForm.Designer.cs">
+      <DependentUpon>OvertimeRequestEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeRequestEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePerformanceReportForm.Designer.cs">
+      <DependentUpon>ManagePerformanceReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePerformanceReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeLimitForm.Designer.cs">
+      <DependentUpon>OvertimeLimitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeLimitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalRegisterForm.Designer.cs">
+      <DependentUpon>PersonalRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptimizationForm.Designer.cs">
+      <DependentUpon>OptimizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptimizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReserveEmergencyForm.Designer.cs">
+      <DependentUpon>ReserveEmergencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReserveEmergencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPasswordResetForm.Designer.cs">
+      <DependentUpon>UserPasswordResetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPasswordResetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve12Form.Designer.cs">
+      <DependentUpon>Reserve12Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve12Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegisterForm.Designer.cs">
+      <DependentUpon>UserRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeReportForm.Designer.cs">
+      <DependentUpon>OvertimeReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalEditForm.Designer.cs">
+      <DependentUpon>PersonalEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutProgramForm.resx">
+      <DependentUpon>AboutProgramForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoradNatifRegForm.resx">
+      <DependentUpon>BoradNatifRegForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarFormAD.resx">
+      <DependentUpon>CalendarFormAD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLeaveGraphForm.resx">
+      <DependentUpon>DailyLeaveGraphForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyProcessADForm.resx">
+      <DependentUpon>DailyProcessADForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyProcessParametrEditForm.resx">
+      <DependentUpon>DailyProcessParametrEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyTripProcessForm.resx">
+      <DependentUpon>DailyTripProcessForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectionPartyForm.resx">
+      <DependentUpon>ElectionPartyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectionRegisterForm.resx">
+      <DependentUpon>ElectionRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectionResultForm.resx">
+      <DependentUpon>ElectionResultForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamRegisterForm.resx">
+      <DependentUpon>ExamRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamRportForm.resx">
+      <DependentUpon>ExamRportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamShowForm.resx">
+      <DependentUpon>ExamShowForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryPostForm.resx">
+      <DependentUpon>HistoryPostForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KartableSelectForm.resx">
+      <DependentUpon>KartableSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LastPersonChangeForm.resx">
+      <DependentUpon>LastPersonChangeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnnounceRegisterForm.resx">
+      <DependentUpon>AnnounceRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnnounceReportForm.resx">
+      <DependentUpon>AnnounceReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyOperatorForm.resx">
+      <DependentUpon>DailyOperatorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlyOperAdvForm.resx">
+      <DependentUpon>MonthlyOperAdvForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyDailyOperationForm.resx">
+      <DependentUpon>MyDailyOperationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavganEditForm.resx">
+      <DependentUpon>NavganEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavganHistorForm.resx">
+      <DependentUpon>NavganHistorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavganRegForm.resx">
+      <DependentUpon>NavganRegForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavganReportForm.resx">
+      <DependentUpon>NavganReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeGraphForm.resx">
+      <DependentUpon>OvertimeGraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeRequestRegForm.resx">
+      <DependentUpon>OvertimeRequestRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkingReportForm.resx">
+      <DependentUpon>ParkingReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaswordRecoveryForm.resx">
+      <DependentUpon>PaswordRecoveryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalAlbumForm.resx">
+      <DependentUpon>PersonalAlbumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalDetailForm.resx">
+      <DependentUpon>PersonalDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExcelForm.resx">
+      <DependentUpon>ImportExcelForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceRequestForm.resx">
+      <DependentUpon>ServiceRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalAllTripReportForm.resx">
+      <DependentUpon>TerminalAllTripReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalDailyProcessForm.resx">
+      <DependentUpon>TerminalDailyProcessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalManoverRegForm.resx">
+      <DependentUpon>TerminalManoverRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalTableEditForm.resx">
+      <DependentUpon>TerminalTableEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalTableTripRegForm.resx">
+      <DependentUpon>TerminalTableTripRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalParametrForm.resx">
+      <DependentUpon>TerminalParametrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalPatternRegForm.resx">
+      <DependentUpon>TerminalPatternRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalTableRegForm.resx">
+      <DependentUpon>TerminalTableRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalTripEditForm.resx">
+      <DependentUpon>TerminalTripEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalTripRegForm.resx">
+      <DependentUpon>TerminalTripRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerminalTripReportForm.resx">
+      <DependentUpon>TerminalTripReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainExchangeForm.resx">
+      <DependentUpon>TrainExchangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToastForm.resx">
+      <DependentUpon>ToastForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripCompileForm.resx">
+      <DependentUpon>TripCompileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripDailyReportForm.resx">
+      <DependentUpon>TripDailyReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripAnalyzeForm.resx">
+      <DependentUpon>TripAnalyzeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageShiftStatisticsForm.resx">
+      <DependentUpon>ManageShiftStatisticsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailShwoForm.resx">
+      <DependentUpon>DetailShwoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KehsikAutoRegForm.resx">
+      <DependentUpon>KehsikAutoRegForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeshikReplaceForm.resx">
+      <DependentUpon>KeshikReplaceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeshikReportForm.resx">
+      <DependentUpon>KeshikReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeshikRequReportForm.resx">
+      <DependentUpon>KeshikRequReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeshikRequRegisterForm.resx">
+      <DependentUpon>KeshikRequRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultsRegisterForm.resx">
+      <DependentUpon>FaultsRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeshikEditForm.resx">
+      <DependentUpon>KeshikEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageFunctionReportForm.resx">
+      <DependentUpon>ManageFunctionReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageOverTimeDetailForm.resx">
+      <DependentUpon>ManageOverTimeDetailForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeGroupForm.resx">
+      <DependentUpon>OvertimeGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePersonStatReportForm.resx">
+      <DependentUpon>ManagePersonStatReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimePickerForm.resx">
+      <DependentUpon>OvertimePickerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyProcessParametrRegForm.resx">
+      <DependentUpon>DailyProcessParametrRegForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PermisionEditForm.resx">
+      <DependentUpon>PermisionEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PermisionReportForm.resx">
+      <DependentUpon>PermisionReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalDetailReportForm.resx">
+      <DependentUpon>PersonalDetailReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordChangeForm.resx">
+      <DependentUpon>PasswordChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalListForm.resx">
+      <DependentUpon>PersonalListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalSelectForm.resx">
+      <DependentUpon>PersonalSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionRegisterForm.resx">
+      <DependentUpon>FunctionRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionEditForm.resx">
+      <DependentUpon>FunctionEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionReportForm.resx">
+      <DependentUpon>FunctionReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageReservReportForm.resx">
+      <DependentUpon>ManageReservReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneBookForm.resx">
+      <DependentUpon>PhoneBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReserveShiftTurnForm.resx">
+      <DependentUpon>ReserveShiftTurnForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetrainingClassRegForm.resx">
+      <DependentUpon>RetrainingClassRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetrainingClassReportForm.resx">
+      <DependentUpon>RetrainingClassReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnnounceShowForm.resx">
+      <DependentUpon>AnnounceShowForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripSpecialRegisterForm.resx">
+      <DependentUpon>TripSpecialRegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechnicalFunctionEditForm.resx">
+      <DependentUpon>TechnicalFunctionEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageKeshikReport.resx">
+      <DependentUpon>ManageKeshikReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripSpecialReportForm.resx">
+      <DependentUpon>TripSpecialReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripImportExecutForm.resx">
+      <DependentUpon>TripImportExecutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripHandlingForm.resx">
+      <DependentUpon>TripHandlingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripImportFinalForm.resx">
+      <DependentUpon>TripImportFinalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripImportPrimeForm.resx">
+      <DependentUpon>TripImportPrimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripInShiftReportForm.resx">
+      <DependentUpon>TripInShiftReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripLovhehReportForm.resx">
+      <DependentUpon>TripLovhehReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripPersonReportForm.resx">
+      <DependentUpon>TripPersonReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripReportForm.resx">
+      <DependentUpon>TripReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripTotalReportForm.resx">
+      <DependentUpon>TripTotalReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateRegisterForm.resx">
+      <DependentUpon>UpdateRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserEditForm.resx">
+      <DependentUpon>UserEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersListForm.resx">
+      <DependentUpon>UsersListForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechnicalFunctionRegForm.resx">
+      <DependentUpon>TechnicalFunctionRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechnicalFunctionReportForm.resx">
+      <DependentUpon>TechnicalFunctionReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLeaveRegisterForm.resx">
+      <DependentUpon>TimeLeaveRegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLeaveEditForm.resx">
+      <DependentUpon>TimeLeaveEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShiftOvertimeForm.resx">
+      <DependentUpon>ShiftOvertimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageOvertimeReviewForm.resx">
+      <DependentUpon>ManageOvertimeReviewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarForm.resx">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reserve9Form.resx">
+      <DependentUpon>Reserve9Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLeaveRegisterOpratorForm.resx">
+      <DependentUpon>DailyLeaveRegisterOpratorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLeaveRegisterAllForm.resx">
+      <DependentUpon>DailyLeaveRegisterAllForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReserveTripForm.resx">
+      <DependentUpon>ReserveTripForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeRegisterForm.resx">
+      <DependentUpon>OvertimeRegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeLeaveReportForm.resx">
+      <DependentUpon>TimeLeaveReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLeaveReportForm.resx">
+      <DependentUpon>DailyLeaveReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeRequestReportForm.resx">
+      <DependentUpon>OvertimeRequestReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReserveReportForm.resx">
+      <DependentUpon>ReserveReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLeaveEditForm.resx">
+      <DependentUpon>DailyLeaveEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeEditForm.resx">
+      <DependentUpon>OvertimeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeRequestEditForm.resx">
+      <DependentUpon>OvertimeRequestEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePerformanceReportForm.resx">
+      <DependentUpon>ManagePerformanceReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeLimitForm.resx">
+      <DependentUpon>OvertimeLimitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalRegisterForm.resx">
+      <DependentUpon>PersonalRegisterForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptimizationForm.resx">
+      <DependentUpon>OptimizationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReserveEmergencyForm.resx">
+      <DependentUpon>ReserveEmergencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPasswordResetForm.resx">
+      <DependentUpon>UserPasswordResetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reserve12Form.resx">
+      <DependentUpon>Reserve12Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegisterForm.resx">
+      <DependentUpon>UserRegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeReportForm.resx">
+      <DependentUpon>OvertimeReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalEditForm.resx">
+      <DependentUpon>PersonalEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>Metro_Operation.Properties</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart.png" />
+    <None Include="Resources\Users-Exit-icon.png" />
+    <None Include="Resources\Plus.png" />
+    <None Include="Resources\Time.png" />
+    <None Include="Resources\icons8_time_machine_20px.png" />
+    <None Include="Resources\up.png" />
+    <None Include="Resources\Tehran_Metro_logo.png" />
+    <None Include="Resources\p_tehran.png" />
+    <None Include="Resources\p_mehrshahr.png" />
+    <None Include="Resources\Morakhasi.jpeg" />
+    <None Include="Resources\main.png" />
+    <None Include="Resources\phone %281%29.png" />
+    <None Include="Resources\notepad.png" />
+    <None Include="Resources\images %284%29.jpg" />
+    <None Include="Resources\return.png" />
+    <None Include="Resources\save-file-option.png" />
+    <None Include="Resources\print-button.png" />
+    <None Include="Resources\rubbish-bin.png" />
+    <None Include="Resources\tick_main.png" />
+    <None Include="Resources\tick-inside-circle1.png" />
+    <None Include="Resources\return_1.png" />
+    <None Include="Resources\to-do-list %281%29.png" />
+    <None Include="Resources\user %281%29.png" />
+    <EmbeddedResource Include="Resources\spl.jpg" />
+    <None Include="Resources\return1.png" />
+    <None Include="Resources\innovation.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\search1.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\magnifying-glass-finder %281%29.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\tick-inside-circle.png" />
+    <None Include="Resources\phone.png" />
+    <None Include="Resources\yes.png" />
+    <None Include="Resources\no.png" />
+    <None Include="Resources\up_32.png" />
+    <None Include="Resources\up_16.png" />
+    <None Include="Resources\Untitled-6.png" />
+    <None Include="Resources\srch_32.png" />
+    <None Include="Resources\srch_24.png" />
+    <None Include="Resources\ref_24.png" />
+    <None Include="Resources\PadLock-icon.png" />
+    <None Include="Resources\opts_24.png" />
+    <None Include="Resources\opts_16.png" />
+    <None Include="Resources\new1.gif" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\lgicn_24.png" />
+    <None Include="Resources\lgicn_16.png" />
+    <None Include="Resources\ii.png" />
+    <None Include="Resources\icon_email.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\9.png" />
+    <None Include="Resources\31.png" />
+    <None Include="Resources\32.png" />
+    <None Include="Resources\about1.jpg" />
+    <None Include="Resources\AC-System %28135-135px%29.png" />
+    <None Include="Resources\add_24.png" />
+    <None Include="Resources\add_241.png" />
+    <None Include="Resources\arrows-and-pointers-seamless-patterns-03-600x600.jpg" />
+    <None Include="Resources\Birthday.jpg" />
+    <None Include="Resources\close_16.png" />
+    <None Include="Resources\close_24.png" />
+    <None Include="Resources\confg_24.png" />
+    <None Include="Resources\confg_241.png" />
+    <None Include="Resources\del_24.png" />
+    <None Include="Resources\docs_24.png" />
+    <None Include="Resources\down_16.png" />
+    <None Include="Resources\down_32.png" />
+    <None Include="Resources\edit_16.png" />
+    <None Include="Resources\exp_24.png" />
+    <None Include="Resources\flag_24.png" />
+    <None Include="Resources\Trian.jpg" />
+    <None Include="Resources\close %281%29.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\error %281%29.png" />
+    <None Include="Resources\checked.png" />
+    <None Include="Resources\cancel %281%291.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\cancel %281%29.png" />
+    <None Include="Resources\EzafehKar.jpeg" />
+    <None Include="Resources\add.png" />
+    <Content Include="Resources\776.png" />
+    <None Include="Resources\Background.png" />
+    <None Include="Resources\Background2.jpg" />
+    <None Include="Resources\Calendar.png" />
+    <Content Include="Resources\elan-new.gif" />
+    <None Include="Resources\Icon.ico" />
+    <None Include="Resources\Eye.png" />
+    <Content Include="Resources\Icon5.ico" />
+    <Content Include="Resources\Help.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Microsoft.CSharp" />
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="fa-IR\Metro Operation.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="fa\Metro Operation.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="Resources\776.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Resources\elan-new.gif">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Resources\Help.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+</Project>

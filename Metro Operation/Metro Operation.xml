@@ -1,0 +1,1173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Metro Operation</name>
+    </assembly>
+    <members>
+        <member name="P:Metro_Operation.AboutForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.AboutProgramForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.AppState.DetectDatabasePath">
+            <summary>
+            تابع تشخیص مسیر دیتابیس (تلاش در مسیرهای مختلف)
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.BoradNatifRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.CalendarFormAD.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyLeaveGraphForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyProcess8GRForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyProcessADForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyProcessParametrEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyTripProcessForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="T:Metro_Operation.DatabaseHelper">
+            <summary>
+            DatabaseHelper: کلاس مرکزی دسترسی به دیتابیس برای OleDb (Access)
+            - همه‌ی Query ها اینجا اجرا می‌شوند.
+            - از Using برای آزادسازی منابع استفاده می‌شود.
+            - تابع‌های sync و async وجود دارند.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ElectionPartyForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ElectionRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ElectionResultForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ExamRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ExamRportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ExamShowForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="T:Metro_Operation.GridPager">
+            <summary>
+            GridPager: یک helper ساده پیجینگ برای Access (TOP + ID > lastId)
+            نیازمند وجود یک ستون ترتیبی/عدد (مثلاً ID) است.
+            اگر جدول تو ترتیب مشخصی ندارد، باید ایندکس یا ستون زمان/ID اضافه شود.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.LastPersonChangeForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.MonthlyOperAdvForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="T:Metro_Operation.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources._3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources._31">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources._32">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources._checked">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources._return">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.about1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.AC_System__135_135px_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.add">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.add_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.add_241">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Birthday">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.cancel">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.cancel1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.close_16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.close_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.confg_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.confg_241">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.docs_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.down_16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.down_32">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.edit_16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.exp_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Eye">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.EzafehKar">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Help">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Icon5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.icons8_time_machine_20px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.ii">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.images__4_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.lgicn_16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.lgicn_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.main">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Morakhasi">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.new1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.no">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.notepad">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.opts_16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.opts_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.p_mehrshahr">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.p_tehran">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.phone">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.phone__1_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Plus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.print_button">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.ref_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.return1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.rubbish_bin">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.save">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.save_file_option">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.search">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.search1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.spl">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.srch_24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.srch_32">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Tehran_Metro_logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.tick_inside_circle">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.tick_main">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Time">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.to_do_list">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Train">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Untitled_6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.up">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.up_16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.up_32">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.user">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.user__1_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.Users_Exit_icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Properties.Resources.yes">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.MyDailyOperationForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.NavganHistorForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeGraphForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ParkingReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PersonalAlbumForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ImportExcelForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ServiceRequestForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TrainExchangeForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripDailyReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripInShiftReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalDailyProcessForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalManoverRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalTableEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalTableTripRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalPatternRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalTableRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="T:Metro_Operation.ToastAnimatorForm">
+            <summary>
+            Animates a form when it is shown, hidden or closed.
+            </summary>
+            <remarks>
+            MDI child forms do not support the Blend method and only support other methods 
+            while being displayed for the first time and when closing.
+            </remarks>
+        </member>
+        <member name="P:Metro_Operation.HistoryPostForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.KartableSelectForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.AnnounceRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.AnnounceReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyOperatorForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.MonthlyOperatorsForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.NavganEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.NavganRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.NavganReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeRequestRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PaswordRecoveryForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PersonalDetailForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalAllTripReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalParametrForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalTripEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalTripRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TerminalTripReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="F:Metro_Operation.ToastForm.openForms">
+            <summary>
+            The list of currently open ToastForms.
+            </summary>
+        </member>
+        <member name="F:Metro_Operation.ToastForm.allowFocus">
+            <summary>
+            Indicates whether the form can receive focus or not.
+            </summary>
+        </member>
+        <member name="F:Metro_Operation.ToastForm.animator">
+            <summary>
+            The object that creates the sliding animation.
+            </summary>
+        </member>
+        <member name="F:Metro_Operation.ToastForm.currentForegroundWindow">
+            <summary>
+            The handle of the window that currently has focus.
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.ToastForm.GetForegroundWindow">
+            <summary>
+            Gets the handle of the window that currently has focus.
+            </summary>
+            <returns>
+            The handle of the window that currently has focus.
+            </returns>
+        </member>
+        <member name="M:Metro_Operation.ToastForm.SetForegroundWindow(System.IntPtr)">
+            <summary>
+            Activates the specified window.
+            </summary>
+            <param name="hWnd">
+            The handle of the window to be focused.
+            </param>
+            <returns>
+            True if the window was focused; False otherwise.
+            </returns>
+        </member>
+        <member name="M:Metro_Operation.ToastForm.#ctor(System.Int32,System.String)">
+             <summary>
+             Creates a new ToastForm object that is displayed for the specified length of time.
+             </summary>
+             <param name="lifeTime">
+             The length of time, in milliseconds, that the form will be displayed.
+             </param>
+            
+        </member>
+        <member name="M:Metro_Operation.ToastForm.Show">
+            <summary>
+            Displays the form.
+            </summary>
+            <remarks>
+            Required to allow the form to determine the current foreground window     before being displayed.
+            </remarks>
+        </member>
+        <member name="P:Metro_Operation.TripAnalyzeForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ManageShiftStatisticsForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DetailShwoForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.KehsikAutoRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.KeshikReplaceForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.KeshikRequReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.KeshikRequRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.FaultsRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.KeshikEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.KeshikReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.MainForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ManageFunctionReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ManageOverTimeDetailForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.ManageOverTimeDetailForm.FillGrids_FromDatabase(System.Data.OleDb.OleDbConnection)">
+            <summary>
+            پر کردن ردیف‌های اولیه (Total + همه GridViewها) از دیتابیس (KindCombo == 1)
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.ManageOverTimeDetailForm.FillGrids_FromPersonTable">
+            <summary>
+            پر کردن ردیف‌های اولیه از MainForm.PersonTable (KindCombo == 0)
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.ManageOverTimeDetailForm.AddPersonRowToAllGrids(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            تابع کمکی که یک شخص را به همه‌ی GridViewهای موردنظر اضافه می‌کند
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.ManageOverTimeDetailForm.ProcessGridViewTimes(System.Windows.Forms.DataGridView,System.Data.DataTable,System.String,System.Boolean)">
+            <summary>
+            پردازش عمومی GridViewها: جمع‌زنی زمان‌ها از ezDT و پر کردن سلول‌ها
+            baseFilter باید فیلتر مربوط به Ezafeh مثل "E_Kind='اضافه کار' AND Vis=True" باشد
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OverTimeGroupForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ManagePersonStatReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimePickerForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyProcessParametrRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PermisionEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PermisionReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PersonalDetailReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.MessageBoxFa.Show(System.String,System.String,System.Windows.Forms.MessageBoxIcon,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxDefaultButton,System.Windows.Forms.MessageBoxOptions,Microsoft.VisualBasic.MsgBoxStyle)">
+            <summary>
+            نمایش MessageBox با تمام تنظیمات
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PasswordChangeForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PersonalListForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PersonalSelectForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.FunctionRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.FunctionEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.FunctionReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ManageReservReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PhoneBookForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ReserveShiftTurnForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.RetrainingClassRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.RetrainingClassReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.AnnounceShowForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripSpecialRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TechnicalFunctionEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ManageKeshikReport.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripCompileForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripSpecialReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripFaultsForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripImportExecutForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripHandlingForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripImportFinalForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripImportPrimeForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripLovhehReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TripTotalReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.UpdateRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.UserEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.UsersListForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TechnicalFunctionRegForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TechnicalFunctionReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TimeLeaveRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TimeLeaveEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ShiftOvertimeForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.CalendarForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.MonthlyOperatingForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Reserve9Form.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyLeaveRegisterOpratorForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyLeaveRegisterAllForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ReserveTripForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.TimeLeaveReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyLeaveReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeRequestReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ReserveReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.DailyLeaveEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeRequestEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ManagePerformanceReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeLimitForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PersonalRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="T:Metro_Operation.OptimizationForm">
+             <summary>
+             OptimizationForm: بازنویسی کامل و بهینه‌شده
+             - شامل PersoOptim که قابل فراخوانی جداگانه است
+             - کش ShKar و TotaMonAdv برای ماه‌ها
+             - پارامترایز کردن همه‌ی کوئری‌ها
+             - اجرای بلندمدت در پس‌زمینه برای جلوگیری از فریز UI
+            
+             فرض: توابع کمکی (Taghvim, TimeToDouble, DoubleToTime, ShamsiToMiladi و اشیاء فرم اصلی) قبلاً وجود دارند.
+             </summary>
+        </member>
+        <member name="P:Metro_Operation.OptimizationForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.OptimizationForm.RunAllCalc(System.String)">
+            <summary>
+            ران اصلی: اتصال باز می‌شود، داده‌های مورد نیاز preload می‌شوند و Calc اجرا می‌گردد.
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.OptimizationForm.Calc(System.String,System.Data.OleDb.OleDbConnection)">
+            <summary>
+            تابع Calc — خواندن Person و پردازش ماه(ها).
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.OptimizationForm.PersoOptim(System.String,System.String,System.Data.OleDb.OleDbConnection)">
+            <summary>
+            PersoOptim — محاسبهٔ یک فرد در ماه (بهینه‌شده)
+            StrConnec: باید یک OleDbConnection باز ارسال شود
+            Tarikh: معمولاً پایان بازه یا تاریخ جاری
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.HelpForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.SplashForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.ReserveEmergencyForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.UserPasswordResetForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.Reserve12Form.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.LoginForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.LoginForm.UpdateUserLoginInfo(System.String)">
+            <summary>
+            بروزرسانی اطلاعات ورود موفق کاربر
+            </summary>
+        </member>
+        <member name="M:Metro_Operation.LoginForm.HandleFailedLogin(System.Int32,System.String)">
+            <summary>
+            مدیریت ورود ناموفق کاربر
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.UserRegisterForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.OvertimeReportForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.PersonalEditForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+        <member name="P:Metro_Operation.WaitForm.Default">
+            <summary>
+            Added by the VB.Net to C# Converter to support default instance behavour in C#
+            </summary>
+        </member>
+    </members>
+</doc>
